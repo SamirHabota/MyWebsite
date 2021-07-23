@@ -11,7 +11,7 @@
       rel="stylesheet"
     />
     <!--Styles-->
-    <link rel="icon" type="image/png" href="img/content/favicon.png" />
+    <link rel="icon" type="image/png" href="img/brand/favicon.png" />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/layout.css" />
     <link rel="stylesheet" href="styles/scrollbar.css" />
@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="styles/mobileNav.css" />
     <link rel="stylesheet" href="styles/mobileView.css" />
     <link rel="stylesheet" href="styles/link.css" />
+    <link rel="stylesheet" href="styles/language.css" />
   </head>
 
   <body>
@@ -26,7 +27,7 @@
     <div id="startButtons" class="navigationContainer">
       <!--Logo-->
       <div class="dFlex">
-        <img src="img/content/logo.png" alt="logo" height="45" />
+        <img src="img/brand/logo.png" alt="logo" height="45" />
       </div>
       <!--Button-->
       <div>
@@ -34,12 +35,33 @@
           ><span class="offWhite">let's go</span></a
         >
       </div>
+      <!--Language-->
+      <div
+        id="lang_selector"
+        class="language-dropdown"
+        style="position: fixed; top: 2px; right: 100px"
+      >
+        <label class="lang-flag lang-en">
+          <span class="flag"></span>
+        </label>
+        <ul class="lang-list">
+          <li class="lang lang-en selected">
+            <span class="flag"></span>
+          </li>
+          <li class="lang lang-bih">
+            <span class="flag"></span>
+          </li>
+          <li class="lang lang-ger">
+            <span class="flag"></span>
+          </li>
+        </ul>
+      </div>
     </div>
     <!--Dekstop Navigaton-->
     <div class="navigationContainer none" id="navigation">
       <!--Logo-->
       <div class="dFlex">
-        <img src="img/content/logo.png" alt="logo" height="45" />
+        <img src="img/brand/logo.png" alt="logo" height="45" />
       </div>
       <!--Links-->
       <div id="desktopNavId" class="none">
@@ -185,5 +207,6 @@
     <script src="scripts/scroll.js"></script>
     <script src="scripts/bakground.js"></script>
     <script src="scripts/mobileNav.js"></script>
+    <script src="scripts/language.js"></script>
   </body>
 </html>
