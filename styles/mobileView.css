@@ -1,0 +1,8 @@
+@media only screen and (max-width: 600px) {
+  .main-title {
+    font-size: 1.5rem;
+  }
+  .navigationContainer {
+    padding: 1rem 0.9rem 1rem 0.9rem;
+  }
+}

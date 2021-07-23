@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Parallax site</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <!--Styles-->
+    <link rel="icon" type="image/png" href="img/content/favicon.png" />
+    <link rel="stylesheet" href="styles/main.css" />
+    <link rel="stylesheet" href="styles/layout.css" />
+    <link rel="stylesheet" href="styles/scrollbar.css" />
+    <link rel="stylesheet" href="styles/colors.css" />
+    <link rel="stylesheet" href="styles/mobileNav.css" />
+    <link rel="stylesheet" href="styles/mobileView.css" />
+    <link rel="stylesheet" href="styles/link.css" />
+  </head>
+
+  <body>
+    <!--Start Data-->
+    <div id="startButtons" class="navigationContainer">
+      <!--Logo-->
+      <div class="dFlex">
+        <img src="img/content/logo.png" alt="logo" height="45" />
+      </div>
+      <!--Button-->
+      <div>
+        <a data-scroll href="#start" class="link link--animation navigationItem"
+          ><span class="offWhite">let's go</span></a
+        >
+      </div>
+    </div>
+    <!--Dekstop Navigaton-->
+    <div class="navigationContainer none" id="navigation">
+      <!--Logo-->
+      <div class="dFlex">
+        <img src="img/content/logo.png" alt="logo" height="45" />
+      </div>
+      <!--Links-->
+      <div id="desktopNavId" class="none">
+        <a
+          data-scroll
+          href="#about"
+          class="black link link--animation navigationItem"
+          ><span class="black">about</span></a
+        >
+        <a
+          data-scroll
+          href="#courses"
+          class="black link link--animation navigationItem"
+          ><span class="black">courses</span></a
+        >
+        <a
+          data-scroll
+          href="#teaching"
+          class="black link link--animation navigationItem"
+          ><span class="black">teaching</span></a
+        >
+        <a
+          data-scroll
+          href="#pricing"
+          class="black link link--animation navigationItem"
+          ><span class="black">pricing</span></a
+        >
+        <a
+          data-scroll
+          href="#reviews"
+          class="black link link--animation navigationItem"
+          ><span class="black">reviews</span></a
+        >
+        <a
+          data-scroll
+          href="#contact"
+          class="black link link--animation navigationItem"
+          ><span class="black">contact</span></a
+        >
+      </div>
+    </div>
+    <!--Mobile Navigation-->
+    <div class="mobileNavContainer none" id="mobileNavId">
+      <i id="burger" class="material-icons" onclick="openMobileNav()">menu</i>
+      <i id="quit" class="material-icons" onclick="closeMobileNav()">clear</i>
+      <div id="links">
+        <a
+          data-scroll
+          onclick="closeMobileNav()"
+          href="#about"
+          class="navigationItem"
+          ><span class="offWhite">about</span></a
+        >
+        <a
+          data-scroll
+          onclick="closeMobileNav()"
+          href="#courses"
+          class="navigationItem"
+          ><span class="offWhite">courses</span></a
+        >
+        <a
+          data-scroll
+          onclick="closeMobileNav()"
+          href="#teaching"
+          class="navigationItem"
+          ><span class="offWhite">teaching</span></a
+        >
+        <a
+          data-scroll
+          onclick="closeMobileNav()"
+          href="#pricing"
+          class="navigationItem"
+          ><span class="offWhite">pricing</span></a
+        >
+        <a
+          data-scroll
+          onclick="closeMobileNav()"
+          href="#reviews"
+          class="navigationItem"
+          ><span class="offWhite">reviews</span></a
+        >
+        <a
+          data-scroll
+          onclick="closeMobileNav()"
+          href="#contact"
+          class="navigationItem"
+          ><span class="offWhite">contact</span></a
+        >
+      </div>
+    </div>
+
+    <section>
+      <!--Parralax Images-->
+      <div class="container">
+        <div class="main-title">
+          <h2 class="offWhite">learn</h2>
+          <h2 class="offWhite">then do IT all</h2>
+        </div>
+        <img id="bakgroundImageId" class="background" alt="background" />
+        <img
+          src="img/parallax/middleground.png"
+          class="middleground"
+          alt="middleground"
+        />
+        <img
+          src="img/parallax/foreground.png"
+          class="foreground"
+          alt="foreground"
+        />
+      </div>
+
+      <!--Pages-->
+      <div class="content" id="content">
+        <div class="blockAnimation" id="mainBlock">
+          <div class="block" id="about">about</div>
+          <div class="block" id="courses">courses</div>
+          <div class="block" id="teaching">teaching</div>
+          <div class="block" id="pricing">pricing</div>
+          <div class="block" id="reviews">reviews</div>
+          <div class="block" id="contact">contact</div>
+          <div class="block" id="footer">footer</div>
+          <div id="start"></div>
+        </div>
+      </div>
+
+      <!--Back To Top Button-->
+      <div id="toTop" class="none toTopContainer">
+        <a href="#top" class="link link--animation"><span>back to top</span></a>
+      </div>
+    </section>
+
+    <!--Scripts-->
+    <script src="https://code.jquery.com/git/jquery-3.x-git.slim.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.6.1/gsap.min.js"
+      integrity="sha512-cdV6j5t5o24hkSciVrb8Ki6FveC2SgwGfLE31+ZQRHAeSRxYhAQskLkq3dLm8ZcWe1N3vBOEYmmbhzf7NTtFFQ=="
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
+    <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script src="scripts/parallax.js"></script>
+    <script src="scripts/scroll.js"></script>
+    <script src="scripts/bakground.js"></script>
+    <script src="scripts/mobileNav.js"></script>
+  </body>
+</html>

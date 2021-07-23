@@ -1,0 +1,49 @@
+.mobileNavContainer {
+  position: fixed;
+  z-index: 5;
+}
+
+#burger {
+  position: fixed;
+  right: 0;
+  top: 0;
+  color: #f6f9fa;
+  background: linear-gradient(45deg, #9682c8 10%, #05bcc9);
+  font-size: 24px;
+  padding: 12px 12px 20px 20px;
+  border-radius: 0% 0% 0% 50%;
+  transition: 1s;
+  cursor: pointer;
+}
+
+#quit {
+  position: fixed;
+  top: 0;
+  left: 0;
+  color: #f6f9fa;
+  font-size: 24px;
+  padding: 35px 16px 200vw 200vw;
+  display: none;
+  cursor: pointer;
+  transition: 1s;
+}
+
+#links {
+  display: none;
+  flex-direction: column;
+  width: 100vw;
+  height: 50vh;
+  padding: 45vh 0;
+  justify-content: space-around;
+  z-index: 6;
+}
+
+#links a {
+  text-align: center;
+  padding: 0.3rem 0 0.3rem 0;
+  text-decoration: none;
+  color: #f6f9fa;
+  font-size: 2rem;
+  font-family: "Poppins", sans-serif;
+  z-index: 10;
+}
