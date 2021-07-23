@@ -1,7 +1,7 @@
 const path = "img/parallax/backgrounds/";
 const imageId = "bakgroundImageId";
 const imageExtension = ".jpg";
-const msIntervalForImageChanges = 15000;
+const msIntervalForImageChanges = 20000;
 const cycle = true;
 const numberOfImages = 10;
 
