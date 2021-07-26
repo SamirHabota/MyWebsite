@@ -9,7 +9,7 @@ document.addEventListener("scroll", function (e) {
     var topValue = Number(
       content.style.top.substring(0, content.style.top.length - 1)
     );
-    if (topValue < 4) {
+    if (content.hasAttribute("style") && topValue < 4) {
       document.getElementById("startButtons").classList.add("none");
       document.getElementById("navigation").classList.remove("none");
       document.getElementById("toTop").classList.remove("none");
@@ -19,7 +19,11 @@ document.addEventListener("scroll", function (e) {
       document.getElementById("toTop").classList.add("none");
     }
   }
-  if (window.innerWidth <= 600 && topValue < 4) {
+  if (
+    window.innerWidth <= 600 &&
+    topValue < 4 &&
+    content.hasAttribute("style")
+  ) {
     document.getElementById("mobileNavId").classList.remove("none");
     document.getElementById("desktopNavId").classList.add("none");
   } else {

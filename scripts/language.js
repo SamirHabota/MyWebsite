@@ -1,13 +1,19 @@
 function loadEnglish() {
-  console.log("english");
+  document.getElementById("lang-startButton").innerHTML = "let's go";
+  document.getElementById("lang-mainTitle").innerHTML = "learn";
+  document.getElementById("lang-subTitle").innerHTML = "then do IT all";
 }
 
 function loadBosnian() {
-  console.log("bosnian");
+  document.getElementById("lang-startButton").innerHTML = "pokreni";
+  document.getElementById("lang-mainTitle").innerHTML = "nauči";
+  document.getElementById("lang-subTitle").innerHTML = "onda radi sve";
 }
 
 function loadGerman() {
-  console.log("german");
+  document.getElementById("lang-startButton").innerHTML = "los gehts";
+  document.getElementById("lang-mainTitle").innerHTML = "lerne";
+  document.getElementById("lang-subTitle").innerHTML = "dann mach alles";
 }
 
 function onToggleClick() {
@@ -48,6 +54,5 @@ function changeLanguage() {
 
 $(document).ready(function () {
   onToggleClick();
-  loadEnglish();
   changeLanguage();
 });

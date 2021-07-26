@@ -32,15 +32,13 @@
       <!--Button-->
       <div>
         <a data-scroll href="#start" class="link link--animation navigationItem"
-          ><span class="offWhite">let's go</span></a
+          ><span class="offWhite mobileSpacing" id="lang-startButton"
+            >let's go</span
+          ></a
         >
       </div>
       <!--Language-->
-      <div
-        id="lang_selector"
-        class="language-dropdown"
-        style="position: fixed; top: 2px; right: 100px"
-      >
+      <div id="lang_selector" class="language-dropdown languageButtonContainer">
         <label class="lang-flag lang-en">
           <span class="flag"></span>
         </label>
@@ -157,8 +155,8 @@
       <!--Parralax Images-->
       <div class="container">
         <div class="main-title">
-          <h2 class="offWhite">learn</h2>
-          <h2 class="offWhite">then do IT all</h2>
+          <h2 class="offWhite" id="lang-mainTitle">learn</h2>
+          <h2 class="offWhite" id="lang-subTitle">then do IT all</h2>
         </div>
         <img id="bakgroundImageId" class="background" alt="background" />
         <img
