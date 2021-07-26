@@ -67,3 +67,6 @@
   right: 25px;
   z-index: 2;
 }
+.startButtonSpacing {
+  margin-right: 6px;
+}

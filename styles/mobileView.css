@@ -8,8 +8,8 @@
   .languageButtonContainer {
     top: 18px !important;
   }
-  .mobileSpacing {
-    margin-right: 20px;
+  .startButtonSpacing {
+    margin-right: 25px;
   }
   .language-dropdown label,
   .language-dropdown ul li {

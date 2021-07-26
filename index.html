@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <title>MyWebsite</title>
+    <title id="lang-websiteTitle">MyWebsite</title>
     <meta name="description" content="" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link
@@ -32,7 +32,7 @@
       <!--Button-->
       <div>
         <a data-scroll href="#start" class="link link--animation navigationItem"
-          ><span class="offWhite mobileSpacing" id="lang-startButton"
+          ><span class="offWhite startButtonSpacing" id="lang-startButton"
             >let's go</span
           ></a
         >
@@ -67,37 +67,37 @@
           data-scroll
           href="#about"
           class="black link link--animation navigationItem"
-          ><span class="black">about</span></a
+          ><span class="black" id="lang-aboutLink">about</span></a
         >
         <a
           data-scroll
           href="#courses"
           class="black link link--animation navigationItem"
-          ><span class="black">courses</span></a
+          ><span class="black" id="lang-coursesLink">courses</span></a
         >
         <a
           data-scroll
           href="#teaching"
           class="black link link--animation navigationItem"
-          ><span class="black">teaching</span></a
+          ><span class="black" id="lang-teachingLink">teaching</span></a
         >
         <a
           data-scroll
           href="#pricing"
           class="black link link--animation navigationItem"
-          ><span class="black">pricing</span></a
+          ><span class="black" id="lang-pricingLink">pricing</span></a
         >
         <a
           data-scroll
           href="#reviews"
           class="black link link--animation navigationItem"
-          ><span class="black">reviews</span></a
+          ><span class="black" id="lang-reviewsLink">reviews</span></a
         >
         <a
           data-scroll
           href="#contact"
           class="black link link--animation navigationItem"
-          ><span class="black">contact</span></a
+          ><span class="black" id="lang-contactLink">contact</span></a
         >
       </div>
     </div>
@@ -111,42 +111,44 @@
           onclick="closeMobileNav()"
           href="#about"
           class="navigationItem"
-          ><span class="offWhite">about</span></a
+          ><span class="offWhite" id="lang-aboutLinkMobile">about</span></a
         >
         <a
           data-scroll
           onclick="closeMobileNav()"
           href="#courses"
           class="navigationItem"
-          ><span class="offWhite">courses</span></a
+          ><span class="offWhite" id="lang-coursesLinkMobile">courses</span></a
         >
         <a
           data-scroll
           onclick="closeMobileNav()"
           href="#teaching"
           class="navigationItem"
-          ><span class="offWhite">teaching</span></a
+          ><span class="offWhite" id="lang-teachingLinkMobile"
+            >teaching</span
+          ></a
         >
         <a
           data-scroll
           onclick="closeMobileNav()"
           href="#pricing"
           class="navigationItem"
-          ><span class="offWhite">pricing</span></a
+          ><span class="offWhite" id="lang-pricingLinkMobile">pricing</span></a
         >
         <a
           data-scroll
           onclick="closeMobileNav()"
           href="#reviews"
           class="navigationItem"
-          ><span class="offWhite">reviews</span></a
+          ><span class="offWhite" id="lang-reviewsLinkMobile">reviews</span></a
         >
         <a
           data-scroll
           onclick="closeMobileNav()"
           href="#contact"
           class="navigationItem"
-          ><span class="offWhite">contact</span></a
+          ><span class="offWhite" id="lang-contactLinkMobile">contact</span></a
         >
       </div>
     </div>
@@ -174,20 +176,22 @@
       <!--Pages-->
       <div class="content" id="content">
         <div class="blockAnimation" id="mainBlock">
-          <div class="block" id="about">about</div>
-          <div class="block" id="courses">courses</div>
-          <div class="block" id="teaching">teaching</div>
-          <div class="block" id="pricing">pricing</div>
-          <div class="block" id="reviews">reviews</div>
-          <div class="block" id="contact">contact</div>
-          <div class="block" id="footer">footer</div>
+          <div class="block" id="about">block</div>
+          <div class="block" id="courses">block</div>
+          <div class="block" id="teaching">block</div>
+          <div class="block" id="pricing">block</div>
+          <div class="block" id="reviews">block</div>
+          <div class="block" id="contact">block</div>
+          <div class="block" id="footer">block</div>
           <div id="start"></div>
         </div>
       </div>
 
       <!--Back To Top Button-->
       <div id="toTop" class="none toTopContainer">
-        <a href="#top" class="link link--animation"><span>back to top</span></a>
+        <a href="#top" class="link link--animation"
+          ><span id="lang-backToTop">back to top</span></a
+        >
       </div>
     </section>
 
