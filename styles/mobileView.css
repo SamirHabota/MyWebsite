@@ -5,4 +5,14 @@
   .navigationContainer {
     padding: 1rem 0.9rem 1rem 0.9rem;
   }
+  .languageButtonContainer {
+    top: 18px !important;
+  }
+  .mobileSpacing {
+    margin-right: 20px;
+  }
+  .language-dropdown label,
+  .language-dropdown ul li {
+    height: 40px !important;
+  }
 }
