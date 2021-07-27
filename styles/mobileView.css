@@ -15,4 +15,7 @@
   .language-dropdown ul li {
     height: 40px !important;
   }
+  .cardImageContainer {
+    left: 4px !important;
+  }
 }
