@@ -1,0 +1,15 @@
+.carouselContainer {
+  height: 95%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tempCard {
+  height: 55vh;
+  width: 100%;
+  background: tan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}

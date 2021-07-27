@@ -15,4 +15,16 @@
   .language-dropdown ul li {
     height: 40px !important;
   }
+  .cardImageContainer {
+    left: 1px !important;
+  }
+  .card {
+    margin: 50px 0px !important;
+  }
+  .card:hover {
+    height: 400px;
+  }
+  .cardContent {
+    padding: 0px 15px !important;
+  }
 }
