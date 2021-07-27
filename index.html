@@ -12,6 +12,20 @@
     />
     <!--Styles-->
     <link rel="icon" type="image/png" href="img/brand/favicon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/layout.css" />
     <link rel="stylesheet" href="styles/scrollbar.css" />
@@ -20,7 +34,8 @@
     <link rel="stylesheet" href="styles/mobileView.css" />
     <link rel="stylesheet" href="styles/link.css" />
     <link rel="stylesheet" href="styles/language.css" />
-    <link rel="stylesheet" href="styles/card.css" />
+    <link rel="stylesheet" href="styles/animatedCard.css" />
+    <link rel="stylesheet" href="styles/carousel.css" />
   </head>
 
   <body>
@@ -178,11 +193,71 @@
       <div class="content" id="content">
         <div class="blockAnimation" id="mainBlock">
           <div class="block" id="about">block</div>
+          <!--Courses-->
           <div class="block" id="courses">
+            <h2 class="blockTitle">courses</h2>
+            <div class="carouselContainer">
+              <div class="owl-carousel owl-theme">
+                <div class="item"><div class="tempCard">1</div></div>
+                <div class="item"><div class="tempCard">2</div></div>
+                <div class="item"><div class="tempCard">3</div></div>
+                <div class="item"><div class="tempCard">4</div></div>
+                <div class="item"><div class="tempCard">5</div></div>
+                <div class="item"><div class="tempCard">6</div></div>
+                <div class="item"><div class="tempCard">7</div></div>
+                <div class="item"><div class="tempCard">8</div></div>
+                <div class="item"><div class="tempCard">9</div></div>
+              </div>
+            </div>
+          </div>
+          <div class="block" id="teaching">block</div>
+          <div class="block" id="pricing">block</div>
+          <!--Reviews-->
+          <div class="block" id="reviews">
+            <h2 class="blockTitle">reviews</h2>
             <div class="cardContainer">
               <div class="card">
                 <div class="cardImageContainer">
-                  <img class="cardImage" src="img/card/test.jpg" alt="test" />
+                  <p class="imageText white">some long sample text</p>
+                  <img
+                    class="cardImage"
+                    src="img/card/animated/test.jpg"
+                    alt="test"
+                  />
+                </div>
+                <div class="cardContent">
+                  <p class="cardText">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Voluptates, laborum tempore. Impedit voluptatibus
+                    praesentium ad culpa sunt at a unde repellat sint! Rerum ?
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="cardImageContainer">
+                  <p class="imageText white">some long sample text</p>
+                  <img
+                    class="cardImage"
+                    src="img/card/animated/test.jpg"
+                    alt="test"
+                  />
+                </div>
+                <div class="cardContent">
+                  <p class="cardText">
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                    Voluptates, laborum tempore. Impedit voluptatibus
+                    praesentium ad culpa sunt at a unde repellat sint! Rerum ?
+                  </p>
+                </div>
+              </div>
+              <div class="card">
+                <div class="cardImageContainer">
+                  <p class="imageText white">some long sample text</p>
+                  <img
+                    class="cardImage"
+                    src="img/card/animated/test.jpg"
+                    alt="test"
+                  />
                 </div>
                 <div class="cardContent">
                   <p class="cardText">
@@ -194,9 +269,6 @@
               </div>
             </div>
           </div>
-          <div class="block" id="teaching">block</div>
-          <div class="block" id="pricing">block</div>
-          <div class="block" id="reviews">block</div>
           <div class="block" id="contact">block</div>
           <div class="block" id="footer">block</div>
           <div id="start"></div>
@@ -221,10 +293,17 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/animation.gsap.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/cferdinandi/smooth-scroll@15/dist/smooth-scroll.polyfills.min.js"></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
     <script src="scripts/parallax.js"></script>
     <script src="scripts/scroll.js"></script>
     <script src="scripts/bakground.js"></script>
     <script src="scripts/mobileNav.js"></script>
     <script src="scripts/language.js"></script>
+    <script src="scripts/carousel.js"></script>
   </body>
 </html>

@@ -3,7 +3,9 @@ function openMobileNav() {
   var links = document.getElementById("links");
   var quit = document.getElementById("quit");
   burger.style.padding = "40px 40px 200vw 200vw";
-  links.style.display = "flex";
+  setTimeout(() => {
+    links.style.display = "flex";
+  }, 300);
   quit.style.display = "inline";
 }
 

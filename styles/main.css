@@ -70,3 +70,7 @@
 .startButtonSpacing {
   margin-right: 6px;
 }
+.blockTitle {
+  padding: 20px 0;
+  font-weight: 300;
+}
