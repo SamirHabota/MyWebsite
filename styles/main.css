@@ -71,6 +71,18 @@
   margin-right: 6px;
 }
 .blockTitle {
-  padding: 20px 0;
+  padding: 20px 0 0 0;
   font-weight: 300;
+}
+
+.blockTitleUnderline {
+  background-image: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
+  background-repeat: no-repeat;
+  background-size: 100% 0.2em;
+  background-position: 30px 101%;
+  transition: background-size 0.25s ease-in;
+  cursor: pointer;
+}
+.blockTitleUnderline:hover {
+  background-size: 100% 88%;
 }

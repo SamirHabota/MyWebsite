@@ -1,0 +1,15 @@
+.gr-deepSeaBlue {
+  background: #2c3e50;
+  background: -webkit-linear-gradient(to right, #4ca1af, #2c3e50);
+  background: linear-gradient(to right, #4ca1af, #2c3e50);
+}
+.gr-sunsetRed {
+  background: #e96443;
+  background: -webkit-linear-gradient(to right, #904e95, #e96443);
+  background: linear-gradient(to right, #904e95, #e96443);
+}
+.gr-darkSkies {
+  background: #4b79a1;
+  background: -webkit-linear-gradient(to right, #283e51, #4b79a1);
+  background: linear-gradient(to right, #283e51, #4b79a1);
+}

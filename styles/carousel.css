@@ -4,12 +4,43 @@
   align-items: center;
   justify-content: center;
 }
-.tempCard {
-  height: 55vh;
+.carouselCard {
+  height: 60vh;
   width: 100%;
-  background: tan;
   display: flex;
+  flex-direction: column;
+  padding: 30px;
   align-items: center;
-  justify-content: center;
+  justify-content: space-evenly;
   border-radius: 10px;
+  transition: 0.3s;
+  cursor: pointer;
+  opacity: 0.9;
+}
+
+.upscale {
+  transition: 0.5s;
+}
+.carouselCard:hover .upscale {
+  transform: scale(1.05);
+}
+.carouselCard:hover {
+  box-shadow: 1px 1px 5px 0px rgba(191, 191, 191, 1);
+  opacity: 1;
+}
+
+.courseTitle {
+  font-size: 2rem;
+  color: #f6f9fa;
+  margin-bottom: -30px;
+  font-weight: 300;
+}
+.carouselText {
+  font-weight: 300;
+  color: #f6f9fa;
+  font-weight: 400;
+}
+
+.carouselLink {
+  text-decoration: none;
 }

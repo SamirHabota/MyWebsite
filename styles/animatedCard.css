@@ -12,7 +12,6 @@
   position: relative;
   max-width: 300px;
   height: 160px;
-  background: #fff;
   margin: 30px 20px;
   padding: 20px 15px;
   display: flex;
@@ -21,7 +20,7 @@
   transition: 0.5s ease-in-out;
 }
 .card:hover {
-  height: 380px;
+  height: 360px;
 }
 .cardImageContainer {
   position: relative;
@@ -35,6 +34,8 @@
   max-width: 100%;
   border-radius: 4px;
   box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  width: 260px;
+  height: 164px;
 }
 .cardContent {
   position: relative;
@@ -49,12 +50,13 @@
 .card:hover .cardContent {
   visibility: visible;
   opacity: 1;
-  margin-top: -130px;
+  margin-top: -140px;
   transition-delay: 0.3s;
 }
 
 .cardText {
   cursor: text;
+  color: white;
 }
 .imageText {
   position: absolute;
@@ -69,6 +71,7 @@
   padding: 10px;
   opacity: 1;
   visibility: visible;
+  font-weight: 400;
 }
 .card:hover .imageText {
   opacity: 0;
