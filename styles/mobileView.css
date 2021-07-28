@@ -28,10 +28,14 @@
     padding: 0px 15px !important;
   }
   .cardContainer {
-    padding-top: 35px;
+    padding-top: 60px;
   }
 
   .card:hover .cardContent {
     margin-top: -130px !important;
+  }
+  .carouselCard {
+    height: 52vh !important;
+    width: 100 !important;
   }
 }
