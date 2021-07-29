@@ -20,6 +20,13 @@ function loadEnglish() {
   document.getElementById("lang-backToTop").innerHTML = "back to top";
 
   document.getElementById("lang-websiteTitle").innerHTML = "MyWebsite";
+
+  document.getElementById("lang-titleAbout").innerHTML = "about";
+  document.getElementById("lang-titleCourses").innerHTML = "courses";
+  document.getElementById("lang-titleTeaching").innerHTML = "teaching";
+  document.getElementById("lang-titlePricing").innerHTML = "pricing";
+  document.getElementById("lang-titleReviews").innerHTML = "reviews";
+  document.getElementById("lang-titleContact").innerHTML = "contact";
 }
 
 function loadBosnian() {
@@ -44,6 +51,13 @@ function loadBosnian() {
   document.getElementById("lang-backToTop").innerHTML = "nazad na vrh";
 
   document.getElementById("lang-websiteTitle").innerHTML = "MojaStranica";
+
+  document.getElementById("lang-titleAbout").innerHTML = "o meni";
+  document.getElementById("lang-titleCourses").innerHTML = "kursevi";
+  document.getElementById("lang-titleTeaching").innerHTML = "podučavanje";
+  document.getElementById("lang-titlePricing").innerHTML = "cjenovnik";
+  document.getElementById("lang-titleReviews").innerHTML = "utisci";
+  document.getElementById("lang-titleContact").innerHTML = "kontakt";
 }
 
 function loadGerman() {
@@ -68,6 +82,13 @@ function loadGerman() {
   document.getElementById("lang-backToTop").innerHTML = "zurück nach oben";
 
   document.getElementById("lang-websiteTitle").innerHTML = "MeineSeite";
+
+  document.getElementById("lang-titleAbout").innerHTML = "über";
+  document.getElementById("lang-titleCourses").innerHTML = "kurse";
+  document.getElementById("lang-titleTeaching").innerHTML = "unterricht";
+  document.getElementById("lang-titlePricing").innerHTML = "preisliste";
+  document.getElementById("lang-titleReviews").innerHTML = "bewertungen";
+  document.getElementById("lang-titleContact").innerHTML = "kontakt";
 }
 
 function onToggleClick() {

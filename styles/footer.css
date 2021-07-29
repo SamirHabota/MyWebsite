@@ -1,0 +1,17 @@
+footer {
+  background-color: #d6d7d8;
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-transform: lowercase;
+  font-weight: 100;
+  font-size: 1rem;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  cursor: pointer;
+}
+footer:hover {
+  transform: scale(1.05);
+}
