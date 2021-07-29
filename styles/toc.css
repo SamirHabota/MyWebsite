@@ -1,0 +1,60 @@
+.table,
+.table--contents {
+  width: 95%;
+}
+
+.table--contents {
+  overflow: hidden;
+}
+.table--contents thead th {
+  text-align: right;
+  text-transform: lowercase;
+}
+.table--contents tbody {
+  line-height: 160%;
+}
+.table--contents tbody td:first-of-type {
+  background-size: 34px 1.5em;
+  background-position: right;
+  position: relative;
+  text-align: left;
+}
+.table--contents tbody td:first-of-type::after {
+  content: "•••••••••••••••••••••••••••";
+  color: rgba(42, 44, 33, 0.75);
+  display: block;
+  font-size: 66%;
+  letter-spacing: 2.5em;
+  line-height: 1.5;
+  position: absolute;
+  right: -110px;
+  bottom: 0;
+  z-index: -1;
+}
+.table--contents tbody td:first-of-type span {
+  background: #f6f9fa;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+.table--contents tbody td:nth-of-type(2) {
+  text-align: right;
+}
+
+.tocContainer {
+  padding: 1.5rem;
+  width: 75%;
+  display: flex;
+  height: 95%;
+  justify-content: center;
+  transition: 0.3s;
+}
+.pricingRow {
+  cursor: pointer;
+}
+.pricingHover {
+  transition: 0.2s;
+}
+
+.pricingRow:hover .pricingHover {
+  color: rgb(31, 180, 185);
+}

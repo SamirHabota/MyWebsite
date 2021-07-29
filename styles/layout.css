@@ -4,3 +4,8 @@
 .dFlex {
   display: flex;
 }
+.flexCenter {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
