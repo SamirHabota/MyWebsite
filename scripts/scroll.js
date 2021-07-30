@@ -31,3 +31,12 @@ document.addEventListener("scroll", function (e) {
     document.getElementById("desktopNavId").classList.remove("none");
   }
 });
+
+function customScrollTo(id) {
+  var tempScroll = new SmoothScroll('a[href*="#"]', {
+    speed: 1700,
+    speedAsDuration: true,
+  });
+  var anchor = document.querySelector("#" + id);
+  tempScroll.animateScroll(anchor);
+}

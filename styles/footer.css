@@ -8,10 +8,7 @@ footer {
   text-transform: lowercase;
   font-weight: 100;
   font-size: 1rem;
-  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
   transition: 0.3s;
   cursor: pointer;
-}
-footer:hover {
-  transform: scale(1.05);
 }

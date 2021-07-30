@@ -39,6 +39,7 @@
     <link rel="stylesheet" href="styles/gradients.css" />
     <link rel="stylesheet" href="styles/toc.css" />
     <link rel="stylesheet" href="styles/footer.css" />
+    <link rel="stylesheet" href="styles/page.css" />
   </head>
 
   <body>
@@ -198,20 +199,52 @@
           <!--About-->
           <div class="block" id="about">
             <h2 class="blockTitle">
-              <span class="blockTitleUnderline" id="lang-titleAbout">about</span>
+              <span class="blockTitleUnderline" id="lang-titleAbout"
+                >about</span
+              >
             </h2>
+            <div class="pageContainer">
+              <div
+                class="
+                  maxSize
+                  flexCenter
+                  alignTextRight
+                  pageTextContainerPaddingLeft
+                  pageTextSize
+                  pageTextContainer
+                "
+                onclick="customScrollTo('courses')"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, voluptate! Accusamus illo iusto mollitia delectus velit
+                magnam, itaque, sunt libero voluptatibus ad, minima a. Natus
+                perspiciatis dolor sit molestiae sapiente. Non blanditiis unde
+                repudiandae ea debitis. Nesciunt sapiente nemo qui deleniti odit
+                non nihil assumenda reprehenderit eos accusamus, sunt totam.
+              </div>
+              <div class="maxSize flexCenter pageImageContainer">
+                <img
+                  src="img/card/pages/about.jpg"
+                  class="baseImageSize pageImage"
+                  alt="aboutImage"
+                  onclick="customScrollTo('courses')"
+                />
+              </div>
+            </div>
           </div>
           <!--Courses-->
           <div class="block" id="courses">
             <h2 class="blockTitle">
-              <span class="blockTitleUnderline" id="lang-titleCourses">courses</span>
+              <span class="blockTitleUnderline" id="lang-titleCourses"
+                >courses</span
+              >
             </h2>
             <div class="carouselContainer">
               <div class="owl-carousel owl-theme">
                 <div class="item">
                   <a data-scroll href="#pricing" class="carouselLink">
-                    <div class="carouselCard gr-deepSeaBlue">                   
-                      <div class="courseTitle upscale">CourseTitle</div>                     
+                    <div class="carouselCard gr-deepSeaBlue">
+                      <div class="courseTitle upscale">CourseTitle</div>
                       <div class="upscale carouselText">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Magnam eveniet ducimus deserunt porro tempore,
@@ -322,13 +355,45 @@
           <!--Teaching-->
           <div class="block" id="teaching">
             <h2 class="blockTitle">
-              <span class="blockTitleUnderline" id="lang-titleTeaching">teaching</span>
+              <span class="blockTitleUnderline" id="lang-titleTeaching"
+                >teaching</span
+              >
             </h2>
+            <div class="pageContainer">
+              <div class="maxSize flexCenter pageImageContainer">
+                <img
+                  src="img/card/pages/teaching.jpg"
+                  class="baseImageSize pageImage"
+                  alt="teachingImage"
+                  onclick="customScrollTo('courses')"
+                />
+              </div>
+              <div
+                class="
+                  maxSize
+                  flexCenter
+                  alignTextLeft
+                  pageTextContainerPaddingRight
+                  pageTextSize
+                  pageTextContainer
+                "
+                onclick="customScrollTo('courses')"
+              >
+                Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                Aperiam, voluptate! Accusamus illo iusto mollitia delectus velit
+                magnam, itaque, sunt libero voluptatibus ad, minima a. Natus
+                perspiciatis dolor sit molestiae sapiente. Non blanditiis unde
+                repudiandae ea debitis. Nesciunt sapiente nemo qui deleniti odit
+                non nihil assumenda reprehenderit eos accusamus, sunt totam.
+              </div>
+            </div>
           </div>
           <!--Pricing-->
           <div class="block" id="pricing">
             <h2 class="blockTitle">
-              <span class="blockTitleUnderline" id="lang-titlePricing">pricing</span>
+              <span class="blockTitleUnderline" id="lang-titlePricing"
+                >pricing</span
+              >
             </h2>
             <div class="flexCenter">
               <div class="tocContainer">
@@ -339,61 +404,81 @@
                     </tr>
                   </thead>
                   <tbody>
-                    <tr class="pricingRow" class="pricingRow">
-                      <td><span class="pricingHover">.NET Core Framework</span></td>
-                      <td class="pricingHover">10 KM</td></td>
+                    <tr class="pricingRow" onclick="customScrollTo('contact')">
+                      <td>
+                        <span class="pricingHover">.NET Core Framework</span>
+                      </td>
+                      <td class="pricingHover">10 KM</td>
                     </tr>
-                    <tr class="pricingRow">
-                      <td><span class="pricingHover">Programming Theory</span></td>
-                      <td class="pricingHover">10 KM</td></td>
+                    <tr class="pricingRow" onclick="customScrollTo('contact')">
+                      <td>
+                        <span class="pricingHover">Programming Theory</span>
+                      </td>
+                      <td class="pricingHover">10 KM</td>
                     </tr>
 
-                    <tr class="pricingRow">
-                      <td><span class="pricingHover">MS SQL Databases</span></td>
+                    <tr class="pricingRow" onclick="customScrollTo('contact')">
+                      <td>
+                        <span class="pricingHover">MS SQL Databases</span>
+                      </td>
                       <td class="pricingHover">10 KM</td>
                     </tr>
-                    <tr class="pricingRow">
-                      <td><span class="pricingHover">The Frontier Line</span></td>
+                    <tr class="pricingRow" onclick="customScrollTo('contact')">
+                      <td>
+                        <span class="pricingHover">The Frontier Line</span>
+                      </td>
                       <td class="pricingHover">10 KM</td>
                     </tr>
-                    <tr class="pricingRow">
-                      <td><span class="pricingHover">Programming Theory</span></td>
+                    <tr class="pricingRow" onclick="customScrollTo('contact')">
+                      <td>
+                        <span class="pricingHover">Programming Theory</span>
+                      </td>
                       <td class="pricingHover">10 KM</td>
                     </tr>
-                    <tr class="pricingRow">
-                      <td><span class="pricingHover">A Forgotten Tale</span></td>
+                    <tr class="pricingRow" onclick="customScrollTo('contact')">
+                      <td>
+                        <span class="pricingHover">A Forgotten Tale</span>
+                      </td>
                       <td class="pricingHover">10 KM</td>
                     </tr>
-                    <tr class="pricingRow">
+                    <tr class="pricingRow" onclick="customScrollTo('contact')">
                       <td><span class="pricingHover">Pennarry Mine</span></td>
                       <td class="pricingHover">10 KM</td>
                     </tr>
-                    <tr class="pricingRow">
+                    <tr class="pricingRow" onclick="customScrollTo('contact')">
                       <td><span class="pricingHover">A Rover Chanty</span></td>
                       <td class="pricingHover">10 KM</td>
                     </tr>
-                    <tr class="pricingRow">
-                      <td><span class="pricingHover">A Ballad of the Ranks</span></td>
+                    <tr class="pricingRow" onclick="customScrollTo('contact')">
+                      <td>
+                        <span class="pricingHover">A Ballad of the Ranks</span>
+                      </td>
                       <td class="pricingHover">10 KM</td>
                     </tr>
-                    <tr class="pricingRow">
-                      <td><span class="pricingHover">A Lay of the Lines</span></td>
+                    <tr class="pricingRow" onclick="customScrollTo('contact')">
+                      <td>
+                        <span class="pricingHover">A Lay of the Lines</span>
+                      </td>
                       <td class="pricingHover">10 KM</td>
                     </tr>
-                    <tr class="pricingRow">
+                    <tr class="pricingRow" onclick="customScrollTo('contact')">
                       <td><span class="pricingHover">The Diving Whip</span></td>
                       <td class="pricingHover">10 KM</td>
                     </tr>
-                    <tr class="pricingRow">
+                    <tr class="pricingRow" onclick="customScrollTo('contact')">
                       <td><span class="pricingHover">Master</span></td>
                       <td class="pricingHover">10 KM</td>
                     </tr>
-                    <tr class="pricingRow">
-                      <td><span class="pricingHover">H.M.S. ‘Foudroyant’</span></td>
+                    <tr class="pricingRow" onclick="customScrollTo('contact')">
+                      <td>
+                        <span class="pricingHover">H.M.S. ‘Foudroyant’</span>
+                      </td>
                       <td class="pricingHover">10 KM</td>
                     </tr>
-                    <tr class="pricingRow">
-                      <td><span class="pricingHover">The Farnshire Cup</span></td>
+                    <tr class="pricingRow" onclick="customScrollTo('contact')">
+                      <td>
+                        <span class="pricingHover">The Farnshire Cup</span>
+                      </td>
                       <td class="pricingHover">10 KM</td>
                     </tr>
                   </tbody>
@@ -404,7 +489,9 @@
           <!--Reviews-->
           <div class="block mobileBlockHeight" id="reviews">
             <h2 class="blockTitle">
-              <span class="blockTitleUnderline" id="lang-titleReviews">reviews</span>
+              <span class="blockTitleUnderline" id="lang-titleReviews"
+                >reviews</span
+              >
             </h2>
             <div class="cardContainer">
               <div class="card gr-deepSeaBlue">
@@ -463,13 +550,15 @@
           <!--Contact-->
           <div class="block" id="contact">
             <h2 class="blockTitle">
-              <span class="blockTitleUnderline" id="lang-titleContact">contact</span>
+              <span class="blockTitleUnderline" id="lang-titleContact"
+                >contact</span
+              >
             </h2>
           </div>
-           <!--Footer-->
-            <footer>
-              <h2>FOOTER</h2>
-            </footer>
+          <!--Footer-->
+          <footer>
+            <h2>FOOTER</h2>
+          </footer>
           <div id="start"></div>
         </div>
       </div>

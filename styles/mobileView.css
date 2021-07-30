@@ -63,6 +63,20 @@
   .mobileBlockHeight {
     height: 145vh !important;
   }
+  .pageContainer {
+    flex-wrap: wrap;
+  }
+  .pageImageContainer {
+    display: none !important;
+  }
+
+  .pageTextSize {
+    font-size: 1.3rem !important;
+  }
+  .pageTextContainer {
+    text-align: center !important;
+    padding: 0 !important;
+  }
 }
 
 @media only screen and (max-width: 395px) {
@@ -77,5 +91,8 @@
   }
   .tocContainer {
     font-size: 17px;
+  }
+  .pageTextSize {
+    font-size: 1.1rem !important;
   }
 }

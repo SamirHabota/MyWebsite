@@ -1,0 +1,41 @@
+.pageContainer {
+  height: 90%;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 20px 0 0 0;
+  margin: 0;
+}
+
+.baseImageSize {
+  max-height: 90%;
+  max-width: 100%;
+}
+
+.pageImage {
+  border-radius: 50px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+  transition: 0.3s;
+}
+.pageImage:hover {
+  transform: scale(1.01);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
+}
+
+.pageTextSize {
+  font-size: 1.4rem;
+  line-height: 1.6;
+}
+.pageTextContainer {
+  transition: 0.3s;
+  cursor: pointer;
+}
+.pageTextContainer:hover {
+  transform: scale(1.01);
+}
+.pageTextContainerPaddingLeft {
+  padding: 0 0 0 50px;
+}
+.pageTextContainerPaddingRight {
+  padding: 0 50px 0 0;
+}

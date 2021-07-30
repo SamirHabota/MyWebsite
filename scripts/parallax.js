@@ -10,7 +10,7 @@ timeline
     ".blockAnimation",
     { opacity: 0 },
     { opacity: 1, duration: 3 },
-    "-=8"
+    "-=5"
   );
 
 const scene = new ScrollMagic.Scene({
