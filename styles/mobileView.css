@@ -93,6 +93,9 @@
     width: 100% !important;
     margin-top: 10px;
   }
+  .notification {
+    width: 90% !important;
+  }
 }
 
 @media only screen and (max-width: 395px) {

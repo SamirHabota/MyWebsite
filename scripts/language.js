@@ -37,6 +37,7 @@ function loadEnglish() {
   document
     .getElementById("contact-phoneId")
     .setAttribute("placeholder", "Enter your phone number");
+  document.getElementById("sendMailButtonId").innerHTML = "send";
 }
 
 function loadBosnian() {
@@ -78,6 +79,8 @@ function loadBosnian() {
   document
     .getElementById("contact-phoneId")
     .setAttribute("placeholder", "Unesite Vaš broj telefona");
+
+  document.getElementById("sendMailButtonId").innerHTML = "pošalji";
 }
 
 function loadGerman() {
@@ -119,6 +122,8 @@ function loadGerman() {
   document
     .getElementById("contact-phoneId")
     .setAttribute("placeholder", "Geben Sie Ihre Telefonnummer ein");
+
+  document.getElementById("sendMailButtonId").innerHTML = "senden";
 }
 
 function onToggleClick() {

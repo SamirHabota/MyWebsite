@@ -41,9 +41,15 @@
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/page.css" />
     <link rel="stylesheet" href="styles/contact.css" />
+    <link rel="stylesheet" href="styles/notification.css" />
   </head>
 
   <body>
+    <!--Notification-->
+    <div id="notificationId" class="notification">
+      <div class="h100 flexCenter black" id="notificationText"></div>
+    </div>
+
     <!--Start Data-->
     <div id="startButtons" class="navigationContainer">
       <!--Logo-->
@@ -561,7 +567,7 @@
                   <textarea
                     id="contact-textId"
                     placeholder="Enter your message"
-                    required
+                    spellcheck="false"
                   ></textarea>
                 </div>
                 <div class="actionsOuterCointainer">
@@ -570,13 +576,13 @@
                       type="text"
                       id="contact-emailId"
                       placeholder="Enter your email"
-                      required
+                      spellcheck="false"
                     />
                     <input
                       type="text"
                       id="contact-phoneId"
                       placeholder="Enter your phone number"
-                      required
+                      spellcheck="false"
                     />
                     <button
                       type="submit"
