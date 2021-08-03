@@ -40,6 +40,7 @@
     <link rel="stylesheet" href="styles/toc.css" />
     <link rel="stylesheet" href="styles/footer.css" />
     <link rel="stylesheet" href="styles/page.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
   </head>
 
   <body>
@@ -554,26 +555,40 @@
                 >contact</span
               >
             </h2>
-            <form onsubmit="sendEmail(event)">
-              <textarea
-                id="contact-textId"
-                placeholder="Enter your message"
-                required
-              ></textarea>
-              <input
-                type="text"
-                id="contact-emailId"
-                placeholder="Enter your email"
-                required
-              />
-              <input
-                type="text"
-                id="contact-phoneId"
-                placeholder="Enter your phone number"
-                required
-              />
-              <button type="submit" id="sendMailButtonId">Send</button>
-            </form>
+            <div>
+              <form onsubmit="sendEmail(event)">
+                <div>
+                  <textarea
+                    id="contact-textId"
+                    placeholder="Enter your message"
+                    required
+                  ></textarea>
+                </div>
+                <div class="actionsOuterCointainer">
+                  <div class="actionsContainer">
+                    <input
+                      type="text"
+                      id="contact-emailId"
+                      placeholder="Enter your email"
+                      required
+                    />
+                    <input
+                      type="text"
+                      id="contact-phoneId"
+                      placeholder="Enter your phone number"
+                      required
+                    />
+                    <button
+                      type="submit"
+                      id="sendMailButtonId"
+                      class="submitButton"
+                    >
+                      Send
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
           </div>
           <!--Footer-->
           <footer>

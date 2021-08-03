@@ -27,6 +27,16 @@ function loadEnglish() {
   document.getElementById("lang-titlePricing").innerHTML = "pricing";
   document.getElementById("lang-titleReviews").innerHTML = "reviews";
   document.getElementById("lang-titleContact").innerHTML = "contact";
+
+  document
+    .getElementById("contact-textId")
+    .setAttribute("placeholder", "Enter your message");
+  document
+    .getElementById("contact-emailId")
+    .setAttribute("placeholder", "Enter your email");
+  document
+    .getElementById("contact-phoneId")
+    .setAttribute("placeholder", "Enter your phone number");
 }
 
 function loadBosnian() {
@@ -58,6 +68,16 @@ function loadBosnian() {
   document.getElementById("lang-titlePricing").innerHTML = "cjenovnik";
   document.getElementById("lang-titleReviews").innerHTML = "utisci";
   document.getElementById("lang-titleContact").innerHTML = "kontakt";
+
+  document
+    .getElementById("contact-textId")
+    .setAttribute("placeholder", "Unesite Vašu poruku");
+  document
+    .getElementById("contact-emailId")
+    .setAttribute("placeholder", "Unesite Vašu email adresu");
+  document
+    .getElementById("contact-phoneId")
+    .setAttribute("placeholder", "Unesite Vaš broj telefona");
 }
 
 function loadGerman() {
@@ -89,6 +109,16 @@ function loadGerman() {
   document.getElementById("lang-titlePricing").innerHTML = "preisliste";
   document.getElementById("lang-titleReviews").innerHTML = "bewertungen";
   document.getElementById("lang-titleContact").innerHTML = "kontakt";
+
+  document
+    .getElementById("contact-textId")
+    .setAttribute("placeholder", "Geben Sie Ihre Nachricht ein");
+  document
+    .getElementById("contact-emailId")
+    .setAttribute("placeholder", "Geben Sie Ihre E-Mail Adresse ein");
+  document
+    .getElementById("contact-phoneId")
+    .setAttribute("placeholder", "Geben Sie Ihre Telefonnummer ein");
 }
 
 function onToggleClick() {

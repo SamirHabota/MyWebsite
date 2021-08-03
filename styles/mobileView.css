@@ -77,6 +77,22 @@
     text-align: center !important;
     padding: 0 !important;
   }
+  textarea {
+    width: 100% !important;
+    margin-top: 10% !important;
+  }
+  .actionsContainer {
+    width: 100% !important;
+    justify-content: center !important;
+    flex-direction: column;
+  }
+  input {
+    width: 100% !important;
+  }
+  .submitButton {
+    width: 100% !important;
+    margin-top: 10px;
+  }
 }
 
 @media only screen and (max-width: 395px) {
