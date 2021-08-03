@@ -554,6 +554,27 @@
                 >contact</span
               >
             </h2>
+            <form onsubmit="sendEmail(event)">
+              <textarea
+                id="contact-textId"
+                placeholder="Enter your message"
+                required
+              >
+              </textarea>
+              <input
+                type="text"
+                id="contact-emailId"
+                placeholder="Enter your email"
+                required
+              />
+              <input
+                type="text"
+                id="contact-phoneId"
+                placeholder="Enter your phone number"
+                required
+              />
+              <button type="submit" id="sendMailButtonId">Send</button>
+            </form>
           </div>
           <!--Footer-->
           <footer>
@@ -593,5 +614,6 @@
     <script src="scripts/mobileNav.js"></script>
     <script src="scripts/language.js"></script>
     <script src="scripts/carousel.js"></script>
+    <script src="scripts/contact.js"></script>
   </body>
 </html>

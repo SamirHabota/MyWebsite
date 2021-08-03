@@ -30,9 +30,6 @@
   transition: 0.3s;
   cursor: pointer;
 }
-.pageTextContainer:hover {
-  transform: scale(1.01);
-}
 .pageTextContainerPaddingLeft {
   padding: 0 0 0 50px;
 }
