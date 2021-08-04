@@ -38,6 +38,24 @@ function loadEnglish() {
     .getElementById("contact-phoneId")
     .setAttribute("placeholder", "Enter your phone number");
   document.getElementById("sendMailButtonId").innerHTML = "send";
+
+  document.getElementById("lang-reachMe").innerHTML = "reach me";
+  document.getElementById("lang-phoneApps").innerHTML =
+    "Phone, WhatsApp, Viber, Telegram:";
+  document.getElementById("lang-website").innerHTML = "website";
+  document.getElementById("lang-p1").innerHTML =
+    "The website was a solo project";
+  document.getElementById("lang-p2").innerHTML =
+    "All inspiration is open source";
+  document.getElementById("lang-p3").innerHTML =
+    "It's source code can be found on GitHub";
+  document.getElementById("lang-socials").innerHTML = "lang-socials";
+  document.getElementById("lang-copyright").innerHTML =
+    "samir habota with OctoDev © 2021";
+
+  document
+    .getElementById("officialPhoneNumberId")
+    .setAttribute("title", "Cick to copy");
 }
 
 function loadBosnian() {
@@ -81,6 +99,24 @@ function loadBosnian() {
     .setAttribute("placeholder", "Unesite Vaš broj telefona");
 
   document.getElementById("sendMailButtonId").innerHTML = "pošalji";
+
+  document.getElementById("lang-reachMe").innerHTML = "do mene";
+  document.getElementById("lang-phoneApps").innerHTML =
+    "Telefon, WhatsApp, Viber, Telegram:";
+  document.getElementById("lang-website").innerHTML = "stranica";
+  document.getElementById("lang-p1").innerHTML =
+    "stranica je bila solo projekat";
+  document.getElementById("lang-p2").innerHTML =
+    "sva inspiracija je open source";
+  document.getElementById("lang-p3").innerHTML =
+    "source code se može naći na GitHub-u";
+  document.getElementById("lang-socials").innerHTML = "mreže";
+  document.getElementById("lang-copyright").innerHTML =
+    "samir habota sa OctoDev © 2021";
+
+  document
+    .getElementById("officialPhoneNumberId")
+    .setAttribute("title", "kliknuti za kopiranje");
 }
 
 function loadGerman() {
@@ -124,6 +160,24 @@ function loadGerman() {
     .setAttribute("placeholder", "Geben Sie Ihre Telefonnummer ein");
 
   document.getElementById("sendMailButtonId").innerHTML = "senden";
+
+  document.getElementById("lang-reachMe").innerHTML = "erreiche mich";
+  document.getElementById("lang-phoneApps").innerHTML =
+    "Telefon, WhatsApp, Viber, Telegram:";
+  document.getElementById("lang-website").innerHTML = "seite";
+  document.getElementById("lang-p1").innerHTML =
+    "die seite war ein solo projekt";
+  document.getElementById("lang-p2").innerHTML =
+    "alle inspiration ist open source";
+  document.getElementById("lang-p3").innerHTML =
+    "der source code ist auf GitHub";
+  document.getElementById("lang-socials").innerHTML = "soziale";
+  document.getElementById("lang-copyright").innerHTML =
+    "samir habota mit OctoDev © 2021";
+
+  document
+    .getElementById("officialPhoneNumberId")
+    .setAttribute("title", "anklicken zum kopieren ");
 }
 
 function onToggleClick() {

@@ -26,6 +26,10 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css"
+    />
     <link rel="stylesheet" href="styles/main.css" />
     <link rel="stylesheet" href="styles/layout.css" />
     <link rel="stylesheet" href="styles/scrollbar.css" />
@@ -598,7 +602,65 @@
           </div>
           <!--Footer-->
           <footer>
-            <h2>FOOTER</h2>
+            <div class="maxSize">
+              <div class="footerBlockOne">
+                <div class="footerContent">
+                  <h2 class="footerTitle" id="lang-reachMe">reach me</h2>
+                  <p id="lang-phoneApps">Phone, WhatsApp, Viber, Telegram:</p>
+                  <p
+                    id="officialPhoneNumberId"
+                    onclick="copy(this.innerHTML)"
+                    title="Cick to copy"
+                  >
+                    +38761/965-403
+                  </p>
+                  <a
+                    href="mailto:habota.mail@gmail.com"
+                    target="_blank"
+                    class="txtDecorationNone"
+                    >habota.mail@gmail.com</a
+                  >
+                </div>
+                <div class="footerContent">
+                  <h2 class="footerTitle" id="lang-website">website</h2>
+                  <p id="lang-p1">The website was a solo project</p>
+                  <p id="lang-p2">All inspiration is open source</p>
+                  <p id="lang-p3">It's source code can be found on GitHub</p>
+                </div>
+                <div class="footerContent">
+                  <h2 id="lang-socials">socials</h2>
+                  <div class="dFlex">
+                    <a
+                      href="https://github.com/SamirHabota"
+                      target="_blank"
+                      title="GitHub"
+                      ><i class="icon ion-social-github socialIcon"></i
+                    ></a>
+                    <a
+                      href="https://www.instagram.com/s.habota/"
+                      target="_blank"
+                      title="Instagram"
+                      ><i class="icon ion-social-instagram socialIcon"></i
+                    ></a>
+                    <a
+                      href="https://www.facebook.com/samir.habota.1/"
+                      target="_blank"
+                      title="Facebook"
+                      ><i class="icon ion-social-facebook socialIcon"></i
+                    ></a>
+                    <a
+                      href="https://github.com/SamirHabota"
+                      target="_blank"
+                      title="Facebook"
+                      ><i class="icon ion-social-linkedin socialIcon"></i
+                    ></a>
+                  </div>
+                </div>
+              </div>
+              <div class="footerBlockTwo flexCenter" id="lang-copyright">
+                samir habota with OctoDev © 2021
+              </div>
+            </div>
           </footer>
           <div id="start"></div>
         </div>
@@ -635,5 +697,6 @@
     <script src="scripts/language.js"></script>
     <script src="scripts/carousel.js"></script>
     <script src="scripts/contact.js"></script>
+    <script src="scripts/copy.js"></script>
   </body>
 </html>
