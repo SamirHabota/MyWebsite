@@ -3,7 +3,10 @@
     font-size: 1.5rem;
   }
   .navigationContainer {
-    padding: 1rem 0.9rem 1rem 0.9rem;
+    padding: 0.5rem 0.9rem 0.5rem 0.9rem;
+  }
+  .navigationBackground {
+    box-shadow: none;
   }
   .languageButtonContainer {
     top: 18px !important;

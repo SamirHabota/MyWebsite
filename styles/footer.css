@@ -31,6 +31,7 @@ footer {
   justify-content: center;
   align-items: flex-start;
   padding: 15px;
+  font-weight: 400;
 }
 .footerTitle {
   margin-bottom: 10px;
@@ -41,5 +42,10 @@ footer {
   transition: 0.2s;
 }
 .socialIcon:hover {
-  color: #314d5f;
+  color: #254e87;
+}
+.footerLogo {
+  position: absolute;
+  opacity: 0.09;
+  margin-top: 2%;
 }

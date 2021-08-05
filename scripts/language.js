@@ -17,9 +17,8 @@ function loadEnglish() {
   document.getElementById("lang-reviewsLinkMobile").innerHTML = "reviews";
   document.getElementById("lang-contactLinkMobile").innerHTML = "contact";
 
-  document.getElementById("lang-backToTop").innerHTML = "back to top";
-
-  document.getElementById("lang-websiteTitle").innerHTML = "MyWebsite";
+  document.getElementById("lang-backToTop").innerHTML =
+    window.innerWidth <= 600 ? "top" : "back to top";
 
   document.getElementById("lang-titleAbout").innerHTML = "about";
   document.getElementById("lang-titleCourses").innerHTML = "courses";
@@ -77,9 +76,8 @@ function loadBosnian() {
   document.getElementById("lang-reviewsLinkMobile").innerHTML = "utisci";
   document.getElementById("lang-contactLinkMobile").innerHTML = "kontakt";
 
-  document.getElementById("lang-backToTop").innerHTML = "nazad na vrh";
-
-  document.getElementById("lang-websiteTitle").innerHTML = "MojaStranica";
+  document.getElementById("lang-backToTop").innerHTML =
+    window.innerWidth <= 600 ? "vrh" : "nazad na vrh";
 
   document.getElementById("lang-titleAbout").innerHTML = "o meni";
   document.getElementById("lang-titleCourses").innerHTML = "kursevi";
@@ -137,10 +135,8 @@ function loadGerman() {
   document.getElementById("lang-pricingLinkMobile").innerHTML = "preisliste";
   document.getElementById("lang-reviewsLinkMobile").innerHTML = "bewertungen";
   document.getElementById("lang-contactLinkMobile").innerHTML = "kontakt";
-
-  document.getElementById("lang-backToTop").innerHTML = "zurück nach oben";
-
-  document.getElementById("lang-websiteTitle").innerHTML = "MeineSeite";
+  document.getElementById("lang-backToTop").innerHTML =
+    window.innerWidth <= 600 ? "oben" : "zurück nach oben";
 
   document.getElementById("lang-titleAbout").innerHTML = "über";
   document.getElementById("lang-titleCourses").innerHTML = "kurse";
