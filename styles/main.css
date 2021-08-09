@@ -54,8 +54,27 @@
 .toTopContainer {
   position: fixed;
   bottom: 20px;
-  right: 25px;
+  right: 20px;
   z-index: 2;
+  background: #39567f;
+  padding: 10px;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  width: 34px;
+  height: 35px;
+  opacity: 0.8;
+}
+.toTopContainer:hover {
+  opacity: 0.9;
+  box-shadow: 2px 2px 5px 0px rgba(158, 158, 158, 1);
+}
+.toTopIcon {
+  color: white;
+  font-size: 1.3rem;
 }
 .startButtonSpacing {
   margin-right: 6px;
