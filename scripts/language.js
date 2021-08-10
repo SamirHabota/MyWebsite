@@ -63,6 +63,9 @@ function loadEnglish() {
       "href",
       "https://www.evernote.com/shard/s574/sh/299847b1-e430-55c5-5dce-a21a0ceb6793/19af8f5f0ead2f8709a8be8d1c1053df"
     );
+
+  document.getElementById("lang-aboutText").innerHTML =
+    "The seventh year of active tutoring in programming and software development is currently underway. My name is Habota Samir and during my many years of experience in the IT industry as well as teaching I gained the necessary experience of transferring knowledge in a very intuitive and interesting way, noticed the advantages and disadvantages of various teaching techniques, and built my tutoring based on successful impressions and achievements. About my background, I am an engineer of information technologies with 9 years of active programming, 6 years of tutoring and 3 years of active work in the industry under my belt. My way of teaching is unique and guarantees a new and better view of the wide world of programming.";
 }
 
 function loadBosnian() {
@@ -131,6 +134,9 @@ function loadBosnian() {
       "href",
       "https://www.evernote.com/shard/s574/sh/299847b1-e430-55c5-5dce-a21a0ceb6793/19af8f5f0ead2f8709a8be8d1c1053df"
     );
+
+  document.getElementById("lang-aboutText").innerHTML =
+    "Trenutno započinje sedma godina aktivnog davanja instrukcija iz oblasti programiranja i razvoja softvera. Moje ime je Habota Samir i tokom svog dugogodišnjeg iskustva u IT industriji kao i podučavanju sam stekao neophodno iskustvo i znanje o prenošenju gradiva na veoma intuitivan i zanimljiv način, uočio prednosti i nedostatke raznih tehnika podučavanja, te izgradio svoj način na osnovu uspješnih utisaka i postignutih rezultata. O mojoj pozadini bih naglasio da sam diplomirani inžinjer informacijskih tehnologija uz 9 godina aktivnog programiranja, 6 godina predavanja i 3 godine aktivnog rada u industriji. Način predavanja je jedinstven i garantuje novi i kvalitetniji pogled na široki svijet programiranja.";
 }
 
 function loadGerman() {
@@ -199,6 +205,9 @@ function loadGerman() {
       "href",
       "https://www.evernote.com/shard/s574/sh/299847b1-e430-55c5-5dce-a21a0ceb6793/19af8f5f0ead2f8709a8be8d1c1053df"
     );
+
+  document.getElementById("lang-aboutText").innerHTML =
+    "Derzeit läuft das siebte Jahr der aktiven Nachhilfe in Programmierung und Softwareentwicklung. Mein Name ist Habota Samir und während meiner langjährigen Erfahrung in der IT-Branche sowie in der Lehre habe ich die nötige Erfahrungen eingesammelt, Wissen sehr intuitiv und interessant zu vermitteln, die Vor- und Nachteile verschiedener Unterrichtstechniken erkannt und meine Nachhilfe aufgebaut basierend auf erfolgreichen Eindrücken und Leistungen. Über meinen Hintergrund bin ich ein Ingenieur für Informationstechnologien mit 9 Jahren aktiver Programmierung, 6 Jahren im Unterricht und 3 Jahren aktiver Arbeit in der Industrie. Meine Art zu unterrichten ist einzigartig und garantiert einen neuen und besseren Blick auf die weite Welt des Programmierens.";
 }
 
 function onToggleClick() {

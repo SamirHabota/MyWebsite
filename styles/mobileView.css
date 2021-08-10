@@ -83,7 +83,7 @@
   }
 
   .pageTextSize {
-    font-size: 1.3rem !important;
+    font-size: 0.9rem !important;
   }
   .pageTextContainer {
     text-align: center !important;
@@ -130,7 +130,7 @@
     font-size: 17px;
   }
   .pageTextSize {
-    font-size: 1.1rem !important;
+    font-size: 0.7rem !important;
   }
   footer {
     height: 70vh !important;
