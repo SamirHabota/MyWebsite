@@ -2,6 +2,11 @@
   .main-title {
     font-size: 1.5rem;
   }
+
+  .moreReviews {
+    margin-top: 0.5rem;
+  }
+
   .toTopContainer {
     width: 40px;
     height: 40px;

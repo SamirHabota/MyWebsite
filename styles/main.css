@@ -63,7 +63,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  transition: 0.3s;
+  transition: 0.1s;
   width: 34px;
   height: 35px;
   opacity: 0.8;
@@ -114,4 +114,19 @@
 }
 .navigationSlim {
   padding: 0.3rem 1.8rem 0.2rem 1.8rem;
+}
+.moreReviews {
+  position: absolute;
+  font-size: 1.5rem;
+  margin-top: 0.7rem;
+  cursor: pointer;
+  margin-left: 0.5rem;
+}
+.moreReviewsIcon {
+  color: #254e87;
+  opacity: 0.8;
+  transition: 0.3s;
+}
+.moreReviewsIcon:hover {
+  opacity: 0.9;
 }

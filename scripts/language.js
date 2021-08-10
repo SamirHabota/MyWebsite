@@ -52,10 +52,21 @@ function loadEnglish() {
   document
     .getElementById("officialPhoneNumberId")
     .setAttribute("title", "Cick to copy");
+
+  document
+    .getElementById("lang-moreReviews")
+    .setAttribute("title", "more reviews");
+
+  document
+    .getElementById("lang-reviewLink")
+    .setAttribute(
+      "href",
+      "https://www.evernote.com/shard/s574/sh/299847b1-e430-55c5-5dce-a21a0ceb6793/19af8f5f0ead2f8709a8be8d1c1053df"
+    );
 }
 
 function loadBosnian() {
-  document.getElementById("lang-startButton").innerHTML = "pokreni";
+  document.getElementById("lang-startButton").innerHTML = "započni";
   document.getElementById("lang-mainTitle").innerHTML = "nauči";
   document.getElementById("lang-subTitle").innerHTML = "da radiš sve";
 
@@ -109,6 +120,17 @@ function loadBosnian() {
   document
     .getElementById("officialPhoneNumberId")
     .setAttribute("title", "kliknuti za kopiranje");
+
+  document
+    .getElementById("lang-moreReviews")
+    .setAttribute("title", "još utisaka");
+
+  document
+    .getElementById("lang-reviewLink")
+    .setAttribute(
+      "href",
+      "https://www.evernote.com/shard/s574/sh/299847b1-e430-55c5-5dce-a21a0ceb6793/19af8f5f0ead2f8709a8be8d1c1053df"
+    );
 }
 
 function loadGerman() {
@@ -166,6 +188,17 @@ function loadGerman() {
   document
     .getElementById("officialPhoneNumberId")
     .setAttribute("title", "anklicken zum kopieren ");
+
+  document
+    .getElementById("lang-moreReviews")
+    .setAttribute("title", "mehr bewertungen");
+
+  document
+    .getElementById("lang-reviewLink")
+    .setAttribute(
+      "href",
+      "https://www.evernote.com/shard/s574/sh/299847b1-e430-55c5-5dce-a21a0ceb6793/19af8f5f0ead2f8709a8be8d1c1053df"
+    );
 }
 
 function onToggleClick() {
