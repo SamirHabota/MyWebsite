@@ -69,6 +69,31 @@ function loadEnglish() {
 
   document.getElementById("lang-teachingText").innerHTML =
     "The teaching itself seeks to adapt to the best way for the client to understand everything. The tutoring is a combination of visual metaphors, explanations and making concrete examples, tasks and projects. Each topic and area of teaching is explained to the smallest details, until the client himself feels that he has understood the area and is ready to continue, which is one of the different and special conventions of the lectures. Depending on the situation and the client's requirements, lectures are held in a private location live or within an online classroom, one on one or in a group. All arrangements are very flexible, in order to create the most productive atmosphere for the client.";
+
+  var array = document.getElementsByClassName("lang-courseProgrammingTheory");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "Programming theory";
+  }
+
+  array = document.getElementsByClassName("lang-courseApiTheory");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "REST API theory";
+  }
+
+  array = document.getElementsByClassName("lang-courseDatabases");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "Relational databases theory";
+  }
+
+  array = document.getElementsByClassName("lang-courseHosting");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "Hosting services";
+  }
+
+  array = document.getElementsByClassName("lang-courseGit");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "Source Control: Git and GitHub";
+  }
 }
 
 function loadBosnian() {
@@ -143,6 +168,31 @@ function loadBosnian() {
 
   document.getElementById("lang-teachingText").innerHTML =
     "Samo podučavanje se nastoji prilagoditi najboljem načinu shvatanja klijenta. Nastava je kombinacija vizuelnih metafora, objašnjenja i izrade konkretnih primjera, zadataka i projekata. Svaka tema i oblast podučavanja se prelazi u najsitnije detalje, dok klijent sam ne osjeti da je oblast shvatio i ne bude spreman nastaviti dalje, što je jedna od drugačijih i posebnih konvencija predavanja. U zavisnosti od situacije i zahtjeva klijenta, predavanja se održavaju na privatnoj lokaciji uživo ili unutar online učionice, jedan na jedan ili u grupi. Svi dogovori su maksimalno fleksibilni, kako bi se stvorila najproduktivnija atmosfera za klijenta.";
+
+  var array = document.getElementsByClassName("lang-courseProgrammingTheory");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "Teorija programiranja";
+  }
+
+  array = document.getElementsByClassName("lang-courseApiTheory");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "REST API teorija";
+  }
+
+  array = document.getElementsByClassName("lang-courseDatabases");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "Teorija relacionih baza";
+  }
+
+  array = document.getElementsByClassName("lang-courseHosting");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "Hosting servisi";
+  }
+
+  array = document.getElementsByClassName("lang-courseGit");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "Source Control: Git i GitHub";
+  }
 }
 
 function loadGerman() {
@@ -217,6 +267,31 @@ function loadGerman() {
 
   document.getElementById("lang-teachingText").innerHTML =
     "Das Verständnis von dem Unterricht selbst wird bestmöglich dem Klienten angepasst. Der Unterricht ist eine Kombination aus visuellen Metaphern, Erklärungen und konkreten Beispielen, Aufgaben und Projekten. Jedes Thema und Lehrgebiet wird bis ins kleinste Detail erklärt, bis der Klient selbst das Gefühl hat, das Gebiet verstanden zu haben und bereit ist, weiterzumachen, was eine der unterschiedlichen und besonderen Konventionen der Vorlesung ist. Je nach Situation und Kundenwunsch werden die Vorträge an einem privaten Ort live oder in einem Online-Klassenraum, einzeln oder in der Gruppe gehalten. Alle Arrangements sind maximal flexibel, um die produktivste Atmosphäre für den Kunden zu erschaffen.";
+
+  var array = document.getElementsByClassName("lang-courseProgrammingTheory");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "Programmiertheorie";
+  }
+
+  array = document.getElementsByClassName("lang-courseApiTheory");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "REST API Theorie";
+  }
+
+  array = document.getElementsByClassName("lang-courseDatabases");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "Relationale Datenbanken Theorie";
+  }
+
+  array = document.getElementsByClassName("lang-courseHosting");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "Hosting";
+  }
+
+  array = document.getElementsByClassName("lang-courseGit");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML = "Source Control: Git und GitHub";
+  }
 }
 
 function onToggleClick() {
