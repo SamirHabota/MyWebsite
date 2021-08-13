@@ -45,7 +45,7 @@ function loadEnglish() {
     "All inspiration is open source";
   document.getElementById("lang-p3").innerHTML =
     "It's source code can be found on GitHub";
-  document.getElementById("lang-socials").innerHTML = "lang-socials";
+  document.getElementById("lang-socials").innerHTML = "socials";
   document.getElementById("lang-copyright").innerHTML =
     "samir habota with OctoDev © 2021";
 
@@ -65,7 +65,10 @@ function loadEnglish() {
     );
 
   document.getElementById("lang-aboutText").innerHTML =
-    "The seventh year of active tutoring in programming and software development is currently underway. My name is Habota Samir and during my many years of experience in the IT industry as well as teaching I gained the necessary experience of transferring knowledge in a very intuitive and interesting way, noticed the advantages and disadvantages of various teaching techniques, and built my tutoring based on successful impressions and achievements. About my background, I am an engineer of information technologies with 9 years of active programming, 6 years of tutoring and 3 years of active work in the industry under my belt. My way of teaching is unique and guarantees a new and better view of the wide world of programming.";
+    "My name is Habota Samir and during my many years of experience in the IT industry as well as teaching I gained the necessary experience of transferring knowledge in a very intuitive and interesting way, noticed the advantages and disadvantages of various teaching techniques, and built my tutoring based on successful impressions and achievements. About my background, I am an engineer of information technologies with 9 years of active programming, 6 years of tutoring and 3 years of active work in the industry under my belt. My way of teaching is unique and guarantees a new and better view of the wide world of programming.";
+
+  document.getElementById("lang-teachingText").innerHTML =
+    "The teaching itself seeks to adapt to the best way for the client to understand everything. The tutoring is a combination of visual metaphors, explanations and making concrete examples, tasks and projects. Each topic and area of teaching is explained to the smallest details, until the client himself feels that he has understood the area and is ready to continue, which is one of the different and special conventions of the lectures. Depending on the situation and the client's requirements, lectures are held in a private location live or within an online classroom, one on one or in a group. All arrangements are very flexible, in order to create the most productive atmosphere for the client.";
 }
 
 function loadBosnian() {
@@ -136,7 +139,10 @@ function loadBosnian() {
     );
 
   document.getElementById("lang-aboutText").innerHTML =
-    "Trenutno započinje sedma godina aktivnog davanja instrukcija iz oblasti programiranja i razvoja softvera. Moje ime je Habota Samir i tokom svog dugogodišnjeg iskustva u IT industriji kao i podučavanju sam stekao neophodno iskustvo i znanje o prenošenju gradiva na veoma intuitivan i zanimljiv način, uočio prednosti i nedostatke raznih tehnika podučavanja, te izgradio svoj način na osnovu uspješnih utisaka i postignutih rezultata. O mojoj pozadini bih naglasio da sam diplomirani inžinjer informacijskih tehnologija uz 9 godina aktivnog programiranja, 6 godina predavanja i 3 godine aktivnog rada u industriji. Način predavanja je jedinstven i garantuje novi i kvalitetniji pogled na široki svijet programiranja.";
+    "Moje ime je Habota Samir i tokom svog dugogodišnjeg iskustva u IT industriji kao i podučavanju sam stekao neophodno iskustvo i znanje o prenošenju gradiva na veoma intuitivan i zanimljiv način, uočio prednosti i nedostatke raznih tehnika podučavanja, te izgradio svoj način na osnovu uspješnih utisaka i postignutih rezultata. O mojoj pozadini bih naglasio da sam diplomirani inžinjer informacijskih tehnologija uz 9 godina aktivnog programiranja, 6 godina predavanja i 3 godine aktivnog rada u industriji. Način predavanja je jedinstven i garantuje novi i kvalitetniji pogled na široki svijet programiranja.";
+
+  document.getElementById("lang-teachingText").innerHTML =
+    "Samo podučavanje se nastoji prilagoditi najboljem načinu shvatanja klijenta. Nastava je kombinacija vizuelnih metafora, objašnjenja i izrade konkretnih primjera, zadataka i projekata. Svaka tema i oblast podučavanja se prelazi u najsitnije detalje, dok klijent sam ne osjeti da je oblast shvatio i ne bude spreman nastaviti dalje, što je jedna od drugačijih i posebnih konvencija predavanja. U zavisnosti od situacije i zahtjeva klijenta, predavanja se održavaju na privatnoj lokaciji uživo ili unutar online učionice, jedan na jedan ili u grupi. Svi dogovori su maksimalno fleksibilni, kako bi se stvorila najproduktivnija atmosfera za klijenta.";
 }
 
 function loadGerman() {
@@ -207,7 +213,10 @@ function loadGerman() {
     );
 
   document.getElementById("lang-aboutText").innerHTML =
-    "Derzeit läuft das siebte Jahr der aktiven Nachhilfe in Programmierung und Softwareentwicklung. Mein Name ist Habota Samir und während meiner langjährigen Erfahrung in der IT-Branche sowie in der Lehre habe ich die nötige Erfahrungen eingesammelt, Wissen sehr intuitiv und interessant zu vermitteln, die Vor- und Nachteile verschiedener Unterrichtstechniken erkannt und meine Nachhilfe aufgebaut basierend auf erfolgreichen Eindrücken und Leistungen. Über meinen Hintergrund bin ich ein Ingenieur für Informationstechnologien mit 9 Jahren aktiver Programmierung, 6 Jahren im Unterricht und 3 Jahren aktiver Arbeit in der Industrie. Meine Art zu unterrichten ist einzigartig und garantiert einen neuen und besseren Blick auf die weite Welt des Programmierens.";
+    "Mein Name ist Habota Samir und während meiner langjährigen Erfahrung in der IT-Branche sowie in der Lehre habe ich die nötige Erfahrungen eingesammelt, Wissen sehr intuitiv und interessant zu vermitteln, die Vor- und Nachteile verschiedener Unterrichtstechniken erkannt und meine Nachhilfe aufgebaut basierend auf erfolgreichen Eindrücken und Leistungen. Über meinen Hintergrund bin ich ein Ingenieur für Informationstechnologien mit 9 Jahren aktiver Programmierung, 6 Jahren im Unterricht und 3 Jahren aktiver Arbeit in der Industrie. Meine Art zu unterrichten ist einzigartig und garantiert einen neuen und besseren Blick auf die weite Welt des Programmierens.";
+
+  document.getElementById("lang-teachingText").innerHTML =
+    "Das Verständnis von dem Unterricht selbst wird bestmöglich dem Klienten angepasst. Der Unterricht ist eine Kombination aus visuellen Metaphern, Erklärungen und konkreten Beispielen, Aufgaben und Projekten. Jedes Thema und Lehrgebiet wird bis ins kleinste Detail erklärt, bis der Klient selbst das Gefühl hat, das Gebiet verstanden zu haben und bereit ist, weiterzumachen, was eine der unterschiedlichen und besonderen Konventionen der Vorlesung ist. Je nach Situation und Kundenwunsch werden die Vorträge an einem privaten Ort live oder in einem Online-Klassenraum, einzeln oder in der Gruppe gehalten. Alle Arrangements sind maximal flexibel, um die produktivste Atmosphäre für den Kunden zu erschaffen.";
 }
 
 function onToggleClick() {

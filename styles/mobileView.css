@@ -56,7 +56,7 @@
     width: 100% !important;
     padding: 0 !important;
     margin: 50px 0px !important;
-    font-size: 21px;
+    font-size: 16.5px;
   }
   .table--contents tbody td:first-of-type::after {
     content: "" !important;
@@ -83,7 +83,7 @@
   }
 
   .pageTextSize {
-    font-size: 15px !important;
+    font-size: 16.5px !important;
   }
   .pageTextContainer {
     text-align: center !important;
@@ -118,7 +118,10 @@
 
 @media only screen and (max-width: 395px) {
   .tocContainer {
-    font-size: 18px;
+    font-size: 15.5px;
+  }
+  .pageTextSize {
+    font-size: 15.5px !important;
   }
 }
 
@@ -127,7 +130,7 @@
     height: 170vh !important;
   }
   .tocContainer {
-    font-size: 17px;
+    font-size: 13px;
   }
   .pageTextSize {
     font-size: 13px !important;
