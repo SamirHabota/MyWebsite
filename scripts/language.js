@@ -94,6 +94,19 @@ function loadEnglish() {
   for (var i = 0; i < array.length; i++) {
     array.item(i).innerHTML = "Source Control: Git and GitHub";
   }
+
+  document.getElementById("lang-pricingProgrammingTheory").innerHTML =
+    "Programming theory";
+  document.getElementById("lang-pricingApiTheory").innerHTML =
+    "REST API theory";
+  document.getElementById("lang-pricingDatabases").innerHTML =
+    "Relational databases theory";
+  document.getElementById("lang-pricingGit").innerHTML =
+    "Source Control: Git and GitHub";
+  document.getElementById("lang-pricingHosting").innerHTML = "Hosting services";
+
+  document.getElementById("lang-priceAnnouncement").innerHTML =
+    "Price for one 60 minute lecture, with one meeting lasting minimally two lectures";
 }
 
 function loadBosnian() {
@@ -193,6 +206,19 @@ function loadBosnian() {
   for (var i = 0; i < array.length; i++) {
     array.item(i).innerHTML = "Source Control: Git i GitHub";
   }
+
+  document.getElementById("lang-pricingProgrammingTheory").innerHTML =
+    "Teorija programiranja";
+  document.getElementById("lang-pricingApiTheory").innerHTML =
+    "REST API teorija";
+  document.getElementById("lang-pricingDatabases").innerHTML =
+    "Teorija relacionih baza";
+  document.getElementById("lang-pricingGit").innerHTML =
+    "Source Control: Git i GitHub";
+  document.getElementById("lang-pricingHosting").innerHTML = "Hosting servisi";
+
+  document.getElementById("lang-priceAnnouncement").innerHTML =
+    "Cijena za jedan čas od 60 minuta, sa minimalno dva časa po sastanku";
 }
 
 function loadGerman() {
@@ -292,6 +318,19 @@ function loadGerman() {
   for (var i = 0; i < array.length; i++) {
     array.item(i).innerHTML = "Source Control: Git und GitHub";
   }
+
+  document.getElementById("lang-pricingProgrammingTheory").innerHTML =
+    "Programmiertheorie";
+  document.getElementById("lang-pricingApiTheory").innerHTML =
+    "REST API Theorie";
+  document.getElementById("lang-pricingDatabases").innerHTML =
+    "Relationale Datenbanken Theorie";
+  document.getElementById("lang-pricingGit").innerHTML =
+    "Source Control: Git und GitHub";
+  document.getElementById("lang-pricingHosting").innerHTML = "Hosting";
+
+  document.getElementById("lang-priceAnnouncement").innerHTML =
+    "Preis für einen 60-minütigen Vortrag, wobei eine Sitzung mindestens zwei Vorträge umfasst";
 }
 
 function onToggleClick() {

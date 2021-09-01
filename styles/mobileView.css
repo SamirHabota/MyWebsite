@@ -3,6 +3,11 @@
     font-size: 1.5rem;
   }
 
+  .table--contents tbody td:first-of-type span {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+  }
+
   .moreReviews {
     margin-top: 0.5rem;
   }

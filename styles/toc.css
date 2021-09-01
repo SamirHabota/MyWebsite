@@ -24,10 +24,9 @@
   color: rgba(42, 44, 33, 0.75);
   display: block;
   font-size: 66%;
-  letter-spacing: 2.5em;
+  letter-spacing: 1.9vw;
   line-height: 1.5;
   position: absolute;
-  right: -110px;
   bottom: 0;
   z-index: -1;
 }
@@ -57,4 +56,8 @@
 
 .pricingRow:hover .pricingHover {
   color: #21d8de;
+}
+.priceAnnouncement {
+  color: gray;
+  font-size: 1rem;
 }
