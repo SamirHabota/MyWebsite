@@ -107,6 +107,92 @@ function loadEnglish() {
 
   document.getElementById("lang-priceAnnouncement").innerHTML =
     "Price for one 60 minute lecture, with one meeting lasting minimally two lectures";
+
+  array = document.getElementsByClassName(
+    "lang-courseProgrammingTheoryContent"
+  );
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Learn everything there is to know about basic and advanced programing, in the most intuitive way.";
+  }
+
+  array = document.getElementsByClassName("lang-courseCCppContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "One of the most utilised and multi-purpose programming languages used for hardware development, building operating systems, browsers etc.";
+  }
+
+  array = document.getElementsByClassName("lang-courseCsharpContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "One of the founding options for modern multi-purpose programming, with web, server, desktop, game and mobile development integration and much more.";
+  }
+
+  array = document.getElementsByClassName("lang-courseHtmlCssJsContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "The holy trinity of frontend development and website building, the foundation for every modern frontend framework.";
+  }
+
+  array = document.getElementsByClassName("lang-courseApiTheoryContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Get to know and understand the modern internet, its protocols and the intricate ways of data travel.";
+  }
+
+  array = document.getElementsByClassName("lang-courseDotnetContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Combine your knowledge, and build almost every type of software with one of the most powerful and versatile multi-purpose framework.";
+  }
+
+  array = document.getElementsByClassName("lang-courseNodeJsContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Get straight into building server side software with one of the most utilized programming language.";
+  }
+
+  array = document.getElementsByClassName("lang-courseDatabaseTheoryContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Create and understand your own entities, relationships and databases, get to know normalization and graph creation.";
+  }
+
+  array = document.getElementsByClassName("lang-courseMSSQLContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Get proficient with data, analytics, querying and learn the backbone of every successful application.";
+  }
+
+  array = document.getElementsByClassName("lang-courseReactContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Learn one of the most popular and fastest growing frontend frameworks and libraries using jsx and tsx syntax.";
+  }
+
+  array = document.getElementsByClassName("lang-courseAngularContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Build stable and enterprise applications using TypeScript, with Google's main frontend framework.";
+  }
+
+  array = document.getElementsByClassName("lang-courseGithubContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Manage and control your code with the most powerful tool and must have skill for every serious developer.";
+  }
+
+  array = document.getElementsByClassName("lang-courseBootstrapContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Build fast and responsive sites with the most popular HTML, CSS, and JS library.";
+  }
+
+  array = document.getElementsByClassName("lang-courseHostingContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Host your applications to the web using modern hosting solutions like Heroku, Azure, Netlify etc.";
+  }
 }
 
 function loadBosnian() {
@@ -219,6 +305,92 @@ function loadBosnian() {
 
   document.getElementById("lang-priceAnnouncement").innerHTML =
     "Cijena za jedan čas od 60 minuta, sa minimalno dva časa po sastanku";
+
+  array = document.getElementsByClassName(
+    "lang-courseProgrammingTheoryContent"
+  );
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Nauči sve što treba znati o osnovnom i naprednom programiranju, na najintuitivniji način.";
+  }
+
+  array = document.getElementsByClassName("lang-courseCCppContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Jedan od najčešće korištenih i višenamjenskih programskih jezika koji se koristi za razvoj hardvera, izgradnju operativnih sistema, internet pretraživača itd.";
+  }
+
+  array = document.getElementsByClassName("lang-courseCsharpContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Jedna od glavnih opcija za moderno višenamjensko programiranje, sa integracijom za web, server, desktop, gaming i mobilni razvoj uz još mnogo izbora.";
+  }
+
+  array = document.getElementsByClassName("lang-courseHtmlCssJsContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Sveto trojsvo frontend development-a i kreiranja web stranica, kao i osnova za svaki moderni frontend framework.";
+  }
+
+  array = document.getElementsByClassName("lang-courseApiTheoryContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Imaj priliku upoznati i razumjeti moderni internet, njegove protokole i načine protoka podataka.";
+  }
+
+  array = document.getElementsByClassName("lang-courseDotnetContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Kombinuj svoje znanje i kreiraj skoro bilo koji tip softvera sa jednim od najmoćnijih i svestranih višenamjenskih framework-a.";
+  }
+
+  array = document.getElementsByClassName("lang-courseNodeJsContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Direktno započni izradu server softvera sa jednim od najčešće korištenih programskih jezika.";
+  }
+
+  array = document.getElementsByClassName("lang-courseDatabaseTheoryContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Kreiraj vlastite entite, relacije i baze podataka i upoznaj se sa procesima normalizacije i kreiranja grafova.";
+  }
+
+  array = document.getElementsByClassName("lang-courseMSSQLContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Upoznaj se sa podacima, analitikom, upitima i nauči temelj svake uspješne aplikacije.";
+  }
+
+  array = document.getElementsByClassName("lang-courseReactContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Nauči jedan od najpopularnijih i najbrže rastućih frontend framework-a i biblioteka koristeći jsx i tsx sintaksu.";
+  }
+
+  array = document.getElementsByClassName("lang-courseAngularContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Izradi stabilne i poslovne aplikacije koristeći TypeScript, s Googleovim glavinm frameworkom.";
+  }
+
+  array = document.getElementsByClassName("lang-courseGithubContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Upravljaj i kontroliši svoj kôd najmoćnijim alatom i vještinom za svakog ozbiljnog programera.";
+  }
+
+  array = document.getElementsByClassName("lang-courseBootstrapContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Izradi brze i responzivne web stranice s najpopularnijom HTML, CSS i JS bibliotekom.";
+  }
+
+  array = document.getElementsByClassName("lang-courseHostingContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Hostiraj svoje aplikacije na web koristeći moderna hosting rješenja poput Heroku, Azure, Netlify itd.";
+  }
 }
 
 function loadGerman() {
@@ -331,6 +503,92 @@ function loadGerman() {
 
   document.getElementById("lang-priceAnnouncement").innerHTML =
     "Preis für einen 60-minütigen Vortrag, wobei eine Sitzung mindestens zwei Vorträge umfasst";
+
+  array = document.getElementsByClassName(
+    "lang-courseProgrammingTheoryContent"
+  );
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Lerne alles von den Grundlagen bis zum fortgeschrittenen Programmieren, auf die intuitivste Weise.";
+  }
+
+  array = document.getElementsByClassName("lang-courseCCppContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Eine der am häufigsten verwendeten und vielseitigsten Programmiersprachen für Hardwareentwicklung, erstellungen von Betriebssystemenen, Browsern usw.";
+  }
+
+  array = document.getElementsByClassName("lang-courseCsharpContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Eine der Gründungsoptionen für moderne Mehrzweckprogrammierung, mit Web-, Server-, Desktop-, Spiele- und Mobile-Entwicklungsintegration und vielem mehr.";
+  }
+
+  array = document.getElementsByClassName("lang-courseHtmlCssJsContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Die heiligen Drei für Frontend-Entwicklung und Website-Erstellung, die Grundlage für jedes moderne Frontend-Framework.";
+  }
+
+  array = document.getElementsByClassName("lang-courseApiTheoryContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Lernen Sie das moderne Internet, seine Protokolle und die Wege des Datenverkehrs kennen und verstehen.";
+  }
+
+  array = document.getElementsByClassName("lang-courseDotnetContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Kombinieren Sie Ihr Wissen und erstellen Sie fast jede Art von Software mit einem der leistungsstärksten und vielseitigsten Mehrzweck-Frameworks.";
+  }
+
+  array = document.getElementsByClassName("lang-courseNodeJsContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Steigen Sie direkt in die Entwicklung von serverseitigen Software mit einem der am häufigst verwendeten Programmiersprachen ein.";
+  }
+
+  array = document.getElementsByClassName("lang-courseDatabaseTheoryContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Erstellen Sie Ihre eigenen Entitäte, Beziehungen und Datenbanken, lernen Sie Normalisierung und Diagrammerstellung kennen.";
+  }
+
+  array = document.getElementsByClassName("lang-courseMSSQLContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Machen Sie sich mit Daten, Analysen und Abfragen vertraut und lernen Sie das Rückgrat jeder erfolgreichen Applikation kennen.";
+  }
+
+  array = document.getElementsByClassName("lang-courseReactContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Lernen Sie eines der beliebtesten und am schnellsten wachsenden Frontend-Frameworks und Bibliotheken mit jsx- und tsx-Syntax kennen.";
+  }
+
+  array = document.getElementsByClassName("lang-courseAngularContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Erstellen Sie stabile Applikationen mit TypeScript, mit dem wichtigsten Frontend-Framework von Google.";
+  }
+
+  array = document.getElementsByClassName("lang-courseGithubContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Verwalten und kontrollieren Sie Ihren Code mit dem leistungsstärksten Tool für jeden ernsthaften Programmierer.";
+  }
+
+  array = document.getElementsByClassName("lang-courseBootstrapContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Erstellen Sie schnelle und reaktionsschnelle Websites mit der beliebtesten HTML-, CSS- und JS-Bibliothek.";
+  }
+
+  array = document.getElementsByClassName("lang-courseHostingContent");
+  for (var i = 0; i < array.length; i++) {
+    array.item(i).innerHTML =
+      "Hosten Sie Ihre Applikationen im Web mit modernen Hosting-Lösungen wie Heroku, Azure, Netlify usw.";
+  }
 }
 
 function onToggleClick() {
