@@ -193,6 +193,20 @@ function loadEnglish() {
     array.item(i).innerHTML =
       "Host your applications to the web using modern hosting solutions like Heroku, Azure, Netlify etc.";
   }
+
+  document.getElementById("lang-bigReviewOne").innerHTML =
+    "'Very patient, clear, likes to explain and shows that he knows and enjoys what he is doing, which is primarily programming and logical thinking in order to write clean and beautiful code.'";
+  document.getElementById("lang-bigReviewTwo").innerHTML =
+    "'Extremely professional lecturer, has a huge amount of patience and understanding. Everything is explained in the smallest details and nothing remains unsaid.'";
+  document.getElementById("lang-bigReviewThree").innerHTML =
+    "'He approaches and explains more difficult to understand concepts in his own way, which makes the material easier and more understandable.'";
+
+  document.getElementById("lang-bigReviewOneTitle").innerHTML =
+    "over 30 happy clients and growing";
+  document.getElementById("lang-bigReviewTwoTitle").innerHTML =
+    "6 jobs in the industry acquired";
+  document.getElementById("lang-bigReviewThreeTitle").innerHTML =
+    "12 main colleges exams passed";
 }
 
 function loadBosnian() {
@@ -391,6 +405,20 @@ function loadBosnian() {
     array.item(i).innerHTML =
       "Hostiraj svoje aplikacije na web koristeći moderna hosting rješenja poput Heroku, Azure, Netlify itd.";
   }
+
+  document.getElementById("lang-bigReviewOne").innerHTML =
+    "'Jako strpljiv, jasan, voli da objašnjava i vidi se da zna i uživa u onome što radi, a to je prije svega programiranje I logičko razmišljanje u cilju što boljeg pisanja koda.'";
+  document.getElementById("lang-bigReviewTwo").innerHTML =
+    "'Izuzetno profesionalan predavač, ima ogromnu količinu strpljenja i razumijevanja. Sve se objašnjava u najsitnije detalje i ništa ne ostaje nedorečeno.'";
+  document.getElementById("lang-bigReviewThree").innerHTML =
+    "'Teže razumljive pojmove približava i objašnjava na sebi svojstven način što gradivo čini lakšim i razumljivijim. Sve preporuke i pohvale.'";
+
+  document.getElementById("lang-bigReviewOneTitle").innerHTML =
+    "preko 30 zadovoljnih klijenata";
+  document.getElementById("lang-bigReviewTwoTitle").innerHTML =
+    "stečeno 6 poslova u industriji";
+  document.getElementById("lang-bigReviewThreeTitle").innerHTML =
+    "12 glavnih fakultativnih ispita položeno";
 }
 
 function loadGerman() {
@@ -589,6 +617,20 @@ function loadGerman() {
     array.item(i).innerHTML =
       "Hosten Sie Ihre Applikationen im Web mit modernen Hosting-Lösungen wie Heroku, Azure, Netlify usw.";
   }
+
+  document.getElementById("lang-bigReviewOne").innerHTML =
+    "'Sehr geduldig, klar, erklärt gerne und zeigt dass er weiß und Spaß daran hat, was in erster Linie Programmieren und logisches Denken ist.'";
+  document.getElementById("lang-bigReviewTwo").innerHTML =
+    "'Sehr professioneller Dozent, hat viel Geduld und Verständnis. Alles wird bis ins kleinste Detail erklärt und nichts bleibt ungesagt.'";
+  document.getElementById("lang-bigReviewThree").innerHTML =
+    "'Er nähert sich und erklärt schwieriger verständliche Konzepte auf seine Weise, was den Stoff einfacher und verständlicher macht. Alle Empfehlungen und Komplimente.'";
+
+  document.getElementById("lang-bigReviewOneTitle").innerHTML =
+    "über 30 zufriedene Kunden und wachsend";
+  document.getElementById("lang-bigReviewTwoTitle").innerHTML =
+    "6 Arbeitsplätze in der Branche erworben";
+  document.getElementById("lang-bigReviewThreeTitle").innerHTML =
+    "12 Hauptschulprüfungen bestanden";
 }
 
 function onToggleClick() {
