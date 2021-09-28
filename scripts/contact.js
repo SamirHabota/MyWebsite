@@ -1,4 +1,4 @@
-const successColor = "#8ae6d4";
+const successColor = "#398CB3";
 const errorColor = "#FF7F60";
 const apiLink = "https://octoemailsender.herokuapp.com/contactMe";
 
