@@ -367,7 +367,7 @@ function loadBosnian() {
   array = document.getElementsByClassName("lang-courseDatabaseTheoryContent");
   for (var i = 0; i < array.length; i++) {
     array.item(i).innerHTML =
-      "Kreiraj vlastite entite, relacije i baze podataka i upoznaj se sa procesima normalizacije i kreiranja grafova.";
+      "Kreiraj vlastite entitete, relacije i baze podataka i upoznaj se sa procesima normalizacije i kreiranja grafova.";
   }
 
   array = document.getElementsByClassName("lang-courseMSSQLContent");
